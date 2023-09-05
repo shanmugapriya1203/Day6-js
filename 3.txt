@@ -1,0 +1,11 @@
+Write a “person” class to hold all the details.
+class Person{
+      constructor(fname,lname,gender,age,eye_color){
+          this.fname = fname;
+          this.lname = lname;
+          this.gender = gender;
+          this.age = age;
+          this.eye_color = eye_color;          
+      }
+  }  
+  var member = new Person("sam","doe","male",23,"black");
